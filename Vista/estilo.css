@@ -1,0 +1,359 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:yellowgreen;
+    padding-right: 5%;
+}
+
+main{
+    width: 75%;
+}
+
+aside{
+    width: 25%;
+}
+
+nav{
+    background-color:grey;
+    padding:0.1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-right: 2%;
+}
+
+span{
+    font-weight: bold;
+}
+
+.cajas_login{
+    width:80%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.en_linea{
+    display: flex; 
+}
+
+.sin_puntos{
+    list-style:none;
+}
+
+.centro{
+    justify-content: space-between;
+}
+
+.imagen_usuario{
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.imagen_usuario_formulario{
+    width: 75px;
+    height: 75px;
+}
+
+.imagen_usuario_lista{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+#listado_estadisticas table tr:nth-child(even) {
+    /*background-color: #D39A73;*/
+    background-color: #DFAC89;
+}
+
+#listado_estadisticas table tr:nth-child(odd) {
+    /*background-color: #DFAC89; */
+    background-color:#E7BA9B;
+}
+#listado_estadisticas table tr:nth-child(1){
+    background-color: #BD8259;
+    border-bottom: solid 2px #667292;
+}
+
+.listado table tr:nth-child(even) {
+    background-color: #B7D7E8;
+}
+
+.listado table tr:nth-child(odd) {
+    background-color: #CFE0E8; 
+}
+
+
+
+td{
+    padding-top:1%;
+    padding-bottom: 1%;
+}
+
+.listado table tr:nth-child(1){
+    background-color: #87BDD8;
+    border-bottom: solid 2px #667292;
+}
+
+.listado2 table tr:nth-child(1){
+    background-color: #87BDD8;
+    border-bottom: solid 2px #667292;
+}
+
+
+.listado2 table tr:nth-child(2){
+    background-color: #B7D7E8;
+    border-bottom: solid 2px #667292;
+}
+.listado2 table tr:nth-child(3){
+    background-color: #CFE0E8;
+    border-bottom: solid 2px #667292;
+}
+
+
+.listado2 table tr:nth-child(10n+4){
+    background-color:crimson ;
+}
+
+.listado2 table tr:nth-child(10n+5){
+    background-color:darkgreen ;
+}
+
+.listado2 table tr:nth-child(10n+6){
+    background-color:rgb(0, 204, 255) ;
+}
+
+.listado2 table tr:nth-child(10n+7){
+    background-color:purple ;
+}
+
+.listado2 table tr:nth-child(10n+8){
+    background-color:rgb(124, 201, 10) ;
+}
+
+.listado2 table tr:nth-child(10n+9){
+    background-color:orange ;
+}
+
+.listado2 table tr:nth-child(10n+10){
+    background-color:blue ;
+}
+
+.listado2 table tr:nth-child(10n+11){
+    background-color:palevioletred ;
+}
+
+.listado2 table tr:nth-child(10n+12){
+    background-color:rgb(230, 183, 97) ;
+}
+
+.listado2 table tr:nth-child(10n+13){
+    background-color:rgb(138, 133, 133) ;
+}
+
+.fondo_blanco{
+    background-color: whitesmoke;
+}
+
+.fondo_claro{
+    background-color: #CFE0E8; 
+}
+
+footer{
+    background-color:yellowgreen;
+    margin-top: 2%;
+    padding:0.1%;
+    font-size: large;
+    padding-right: 20%;
+}
+
+
+table{
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    font-size: large;
+}
+
+.texto_centro{
+    text-align: center;
+    width:90%
+}
+
+.titulo_pagina{
+    border-bottom: black 1px solid;
+}
+
+.margen_izquierdo{
+    margin-left: 2%;
+}
+
+h2{
+    width:100%;
+}
+
+.centrado{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+section{
+    background-color:#F6DDCC;;
+    
+    padding-top: 0.1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    margin: 2%;
+    margin-bottom: 10%;
+    /*background-color:#f6f89c;*/
+}
+#img_vacuna{
+    width:10%;
+}
+
+#img_cara{
+    width: 10%;
+}
+
+#img_medico{
+    width: 17%;
+    margin-bottom: 20%;
+}
+
+#img_lupa{
+    width: 12%;
+    margin-bottom: 20%;
+}
+
+
+#img_login{
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.margen_formulario{
+    margin-top:1%;
+}
+
+.margen_formulario2{
+    margin-top:3%;
+}
+.imagenes_login{
+    
+    width: 10%;
+    
+}
+
+.caja_login{
+    margin-bottom: 3%;
+    margin-top: 1%;
+    padding:1%;
+    border:grey 1px solid;
+    
+}
+
+
+
+aside{
+    margin-right: 0%;
+    margin-left: 2%;
+}
+
+.boton{
+    margin-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 40%;
+    padding-right: 40%;
+    font-size: large;
+    color:white;
+    background-color: #BD8259;
+}
+
+.vac_tiempo{
+    width:5%;
+}
+
+.vac_nombre{
+    width:10%;
+}
+
+.placeholder_grande{
+    width:50%;
+}
+
+.opacidad{
+    opacity: 0.1;
+}
+
+a:visited {
+    color: whitesmoke;
+    text-decoration:none;
+}
+
+a:link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a.negro {
+    color: black;
+    text-decoration:none;
+}
+
+a.negro{
+    color: black;
+    text-decoration: none;
+}
+
+#linkk{
+    color: grey;
+    text-decoration: none;
+}
+#nav2{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top:1%;
+    padding-bottom:1%;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top: 2%;
+
+    background-color:#B7D7E8;;
+    border: solid 2px #667292;
+}
+
+.anchura{
+    width:90%;
+}
+
+.div_param_busqueda{
+    width:30%;
+}
+
+.en_linea2{
+    
+    display: flex; 
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+.no_margen{
+    width:100%;
+    
+}
+.mainl{
+    width:100%;
+    
+}
+
